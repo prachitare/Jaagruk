@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>JAAGRUK - A COVID-19 Awareness Initiative</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./static/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="./static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+<div id="resize">
+  <ul id="menu">
+    <li><a href="#one">Common Myths | सामान्य अफवाह</a></li>
+    <li><a href="#two">Real Time Data | जानकारी</a></li>
+  </ul>
+</div>
+
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">JAAGRUK | जागरूक </a></li>
+							<li><a href="#one">Common Myths | सामान्य अफवाह </a></li>
+							<li><a href="#two">Real Time Data | जानकारी </a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>COVID-19 isn't a hype! कोरोना को गंभीरता से लीजिये </h1>
+							<h2>Isolate yourselves. घर से बाहर न निकले !<br /></h2>
+							<h2>Don't trust fake whatsapp messages. व्हाट्सप्प की जानकारी पर निर्भर न रहे !<br /></h2>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more/और जानिये</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="./static/images/img_1.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h1>Fact 1 | तथ्य 1</h1>
+									<h2>कोरोना वायरस गर्मी से नहीं मरता है!</h2>
+									<h2>Coronavirus can survive heat</h2>
+									<p>कोरोना वायरस सऊदी अरब जैसे गरम देश में भी फ़ैल रहा है| गलत अफवाहों को सच न मानें|</p>
+									<p>Corona virus is spreading in middle east too! Don't trust the rumours on whatsapp.</p>
+									<ul class="actions">
+										<li><a href="{{url_for('generic')}}" class="button">Learn more/और जानिये</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="./static/images/img_2.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h1>Fact 2 | तथ्य 2</h1>
+									<h2>आप हज़ारों लोगों को बिना जाने संक्रमत कर सकते हैं !</h2>
+									<h2>You can infect thousands of people without knowing it!</h2>
+									<p>लक्षणों के दिखने से पहले यह वायरस आपके शरीर में १४ दिनों तक रह सकता है| इसीलिए दुसरे लोगों के पास न जाएँ|</p>
+									<p>It remains in your body for 14 days before symptoms appear in your body. That's why you 
+									must stay away from people.</p>
+									<ul class="actions">
+										<li><a href="{{url_for('generic')}}" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="./static/images/img_3.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h1>Fact 3 | तथ्य 3</h1>
+									<h2>चिकित्सकों/डॉक्टरों के पास जाएँ </h2>
+									<h2>Consult the doctors ASAP!</h2>
+									<p>अगर आपको सांस लेने में परेशानी, बुखार व सर्दी खांसी है तोह अस्पताल जाकर परामर्श लें|</p>
+									<p>If you feel difficulty in breathing, fever, running nose, cold and cough... Please
+									get yourselves tested!</p>
+									<ul class="actions">
+										<li><a href="{{url_for('generic')}}" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<h2>As of {{timestamp}}<br>
+						 {{count}} patients have been tested positive for COVID-19 in India.</h2>
+						<a href="#" class="image"><img src="./static/covid_plot.png" alt="" style="width: 100%; height: auto;" /></a>
+						<!-- <div class="inner">
+							<h2>What we do</h2>
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Lorem ipsum amet</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Aliquam sed nullam</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Sed erat ullam corper</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Veroeros quis lorem</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Urna quis bibendum</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Aliquam urna dapibus</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="{{url_for('generic')}}" class="button">Learn more</a></li>
+							</ul>
+						</div> -->
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; An initiative by <a href = "https://www.linkedin.com/in/prachi-tare-a8798012b/">Prachi</a> and <a href = "https://www.linkedin.com/in/satyammishra1/">Satyam</a>.</li>
+						<li>Because, we trust MIT and Harvard over Whatsapp University for a reason.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="./static/assets/js/jquery.min.js"></script>
+			<script src="./static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="./static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="./static/assets/js/browser.min.js"></script>
+			<script src="./static/assets/js/breakpoints.min.js"></script>
+			<script src="./static/assets/js/util.js"></script>
+			<script src="./static/assets/js/main.js"></script>
+
+	</body>
+</html>
